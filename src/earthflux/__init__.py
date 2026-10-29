@@ -5,9 +5,9 @@ from .metrics import calculate_nep
 from .processing import annual_carbon_summary
 
 __all__ = [
-    "load_flux_data",
-    "calculate_nep",
     "annual_carbon_summary",
+    "calculate_nep",
+    "load_flux_data",
 ]
 
 __version__ = "0.1.0"
